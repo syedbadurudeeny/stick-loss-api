@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-page{
+    background: url('./images/login-page-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    width: 100%;
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.form-inputs{
+    width: 50%;
+    height: 50%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: transparent;
+    opacity: 0.7;
+    backdrop-filter: blur(11px); 
+    background-color: rgba(92, 83, 83, 0.947); 
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    border-radius: 20px;
+    padding: 10px;
+}
+.form input{
+    width: 45%;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: white;
+}
+.btn-submit{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+/* register-page */
+.register-page{
+    background: url('./images/register-page-img.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* home-page */
+
+.home-page{
+    /* display: flex; */
+    background: url("./images/stock-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.home-dash{
+    /* background:  url('./Images/bulb.jpg'); */
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    list-style: none;
+    padding: 10px;
+
+}
+.admin{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.content-edu h2{
+    color: white;
+}
+.home-dash .nav-edu .nav-links .admin{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.user-details{
+    width: 30%;
+    display: flex;
+    margin: 250px auto;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid red;
+}
+
+/* dash-page */
+.dash-page{
+    /* display: flex; */
+    background: url("./images/stock-dash-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.dash-dash{
+    /* background:  url('./Images/bulb.jpg'); */
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+/* stock-page */
+.stock-page{
+    /* display: flex; */
+    background: url("./images/main-stock-page.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.stock-dash{
+    /* background:  url('./Images/bulb.jpg'); */
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.about-stocks{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    text-align: start;
+    background: transparent;
+    opacity: 0.7;
+    backdrop-filter: blur(11px); 
+    background-color: rgba(49, 46, 46, 0.397); 
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    gap: 12px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+.about-stocks div h3{
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.about-stocks div p{
+    color: yellow;
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+/* stock - page */
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.stocks{
+    padding: 20px;
+    width: 40%;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid red;
+}
+.input-box button{
+    padding: 20px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid red;
+    background-color: blue;
+    color: white;
+}
+
+.stock-values{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin: auto;
+    background: transparent;
+    text-align: center;
+    opacity: 0.7;
+    backdrop-filter: blur(11px); 
+    background-color: rgba(49, 46, 46, 0.397); 
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    color: white;
+    border-radius: 20px;
+}
+.stock-values .stock-features{
+    display: flex;
+    justify-content: space-around;
+}
+.stock-features-first{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: rgb(255, 0, 0);
+    padding: 5px;
+}
+.stock-features-first h3{
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid red;
+    font-style: italic;
+}
+.inside-stock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stock-features-second{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: greenyellow;
+    padding: 5px;
+}
+.stock-features-second h3{
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid green;
+    font-style: italic;
+}
